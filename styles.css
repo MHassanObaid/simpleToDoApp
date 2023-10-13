@@ -1,0 +1,148 @@
+body{
+  font-family: sans-serif;
+  background-color: rgb(222, 221, 221);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; /* Center content vertically */
+  min-height: 100vh;
+}
+
+
+ @media (min-width: 630px){ 
+.app
+{
+  height: 440px;
+  
+  
+  
+  max-width: 100%;
+  margin: 0 30px;
+  border: 2px solid rgb(0, 191, 255);
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  
+  
+}
+.inside-app
+{
+  margin-left: 30px;
+
+}
+.form
+{
+  margin-top: 25px;
+}
+.form textarea
+{
+  
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.right
+{
+  margin:0;
+  
+}
+#msg
+{
+  color: red;
+}
+
+
+#posts div
+{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+  gap: 90px;
+}
+
+#posts .div_posts p
+{
+  display: inline-block;
+}
+
+#posts .div_posts .options
+{
+  display: flex;
+  gap: 24px;
+}
+}
+
+ @media (max-width: 630px){
+
+
+  .app
+{
+  
+  
+  
+  
+  max-width: 100%;
+  margin: 0 30px;
+  border: 2px solid rgb(0, 191, 255);
+  background-color: white;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+#form .form-spn
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container
+{
+display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.inside-app
+{
+  margin-left: 5px;
+
+}
+.form
+{
+  margin-top: 1px;
+}
+
+#posts div
+{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+  gap: 80px;
+}
+
+#posts .div_posts p
+{
+  display: inline-block;
+}
+
+#posts .div_posts .options
+{
+  display: flex;
+  gap: 24px;
+}
+.right h3
+{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+
+}
+
+
+} 
